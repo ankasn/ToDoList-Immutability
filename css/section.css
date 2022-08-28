@@ -1,0 +1,35 @@
+.section {
+    background-color: white;
+    margin-bottom: 10px 0;
+    }
+
+.section__header {
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    }
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}
+
+.header__button {
+    background-color: transparent;
+    color: teal;
+    transition: 1s;
+    font-size: 17px;
+    border: none;
+};
+    
+.header__button:hover {
+    color: hsl(180, 100%, 45%);
+ };
+    
+.header__button--disabled {
+    color: #aaa;
+};
