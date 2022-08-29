@@ -88,7 +88,7 @@
                 </button>
                 <button class="header__button js-allDone
                     ${tasks.every(({done}) => done) ? "header__button--disabled" : ""}
-                    ${tasks.every(({done}) => done) ? "disabled" : ""}> 
+                    ${tasks.every(({done}) => done) ? "disabled" : ""}"> 
                     Ukończ wszystkie
                 </button>
                 `;
