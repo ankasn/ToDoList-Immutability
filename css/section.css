@@ -15,6 +15,7 @@
 @media (max-width: 767px) {
     .section__header {
         grid-template-columns: 1fr;
+        gap: 10px;
     }
 }
 
@@ -31,5 +32,9 @@
  }
     
 .header__button--disabled {
+    color: #aaa;
+}
+
+.header__button--disabled:hover {
     color: #aaa;
 }

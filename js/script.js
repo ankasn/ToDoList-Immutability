@@ -73,7 +73,8 @@
                     <button class="list__button list__button--remove js-remove">
                         🗑
                     </button>
-                </li>`
+                </li>
+            `
         }
         document.querySelector(".js-tasks").innerHTML = htmlString;
     };
@@ -91,7 +92,7 @@
                     ${tasks.every(({done}) => done) ? "disabled" : ""}"> 
                     Ukończ wszystkie
                 </button>
-                `;
+            `
         }
         document.querySelector(".js-listHeader").innerHTML = headerContent;
     };

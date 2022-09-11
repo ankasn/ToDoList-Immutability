@@ -22,7 +22,7 @@
 .form__button:hover {
     background-color: rgb(2, 160, 160);
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .form__input {
